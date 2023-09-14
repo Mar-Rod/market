@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:  auto;
+    
+}
+.hero{
+   
+    background: #fff;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    grid-template-areas:"nav" "content" ;
+    min-height: 100vh;
+   
+    
+}
+.nav{
+    grid-area: nav;
+    grid-area: nav;
+    display: grid;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    gap: 1em;
+    align-items: center;
+    height: 90%;
+
+}
+.nav_links{
+    color: #000;
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1em;
+}
+.logo{
+    width: 160px;
+    height: 130px;
+}
+.hero_main con{
+   width: 90%;
+   margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding-bottom: 150px;
+    grid-gap: 2rem;
+   
+
+}
+.hero_title{
+    font-size: 2rem;
+    letter-spacing: 2px;
+
+}
+.hero_subtitle{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.hero_picture{
+   
+    display: block;
+    object-fit: cover;
+
+}
+.hero_img{
+    width: 500px;
+}
+.hero_texts{
+    padding: 1 rem 2 rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav_links a{
+    margin: 0px 5 px;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all .50s ease; 
+
+    
+}
+.nav_links a:hover{
+    color: aqua;
+
+}
+.cta{
+    display:  inline-block;
+    padding: 12px 30px;
+    color: #fff;
+    background: #5EFCE8;
+    border-radius: 30px;
+    font-size:  15px;
+    border:  2px solid transparent;
+    transition: all .40s ease;
+}
+
+
+
+
+
+
+footer{
+    position: relative;
+    padding: 50px 100px;
+    background:#5151E5;
+ }
+ 
+ footer .contenedor {
+     width: 100%;
+     display: flex;
+     grid-gap: 20px;
+     grid-template-columns:auto;
+ 
+ }
+ footer .contenedor .footer p{
+     position: relative;
+     color: #ffffff;
+     font-weight: 300;
+     margin-bottom: 15px;
+  
+ 
+ }
+ footer .contenedor .footer ul li{
+     color: #ffffff;
+     list-style: none;
+ }
+ 
+ footer .icons, footer .footmenu{
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin:   0 30px;
+     flex-wrap: wrap;
+     color: #5151E5;
+    
+ 
+ }
+ 
+ 
+ footer .icons li{
+     list-style: none;
+     font-size: 1rem;
+     margin:  0 30px;
+     display:  inline;
+     transition: 0.5s;
+    
+ 
+ }
+ img{
+     align-items: center;
+ }
+ 
+ 
+ 
+ footer .footmenu  li {
+     list-style: none;
+     font-size: 1rem;
+     margin:  0 35px;
+     display:  inline;
+     transition: 0.5s;
+     
+     border-radius: 25px;
+     padding: 2%;
+ 
+ }
+ footer .footmenu  li a{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+ 
+ 
+ }
+ 
+
+
+
