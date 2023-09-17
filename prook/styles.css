@@ -1,0 +1,132 @@
+
+        /* Fuentes tipográficas */
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        /* Estilos generales */
+        body {
+            background-color: #E9E9DE;
+            color: #101111;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #fcfcfc;
+            color: #0776d6;
+            padding: 20px;
+        }
+
+        /* Navegación */
+        nav ul {
+            list-style: none;
+            padding: 50;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #070808;
+        }
+
+        /* Secciones */
+        section {
+            padding: 40px;
+        }
+
+        /* Sección "Inicio" */
+        #inicio {
+            background-color: #fcfeff;
+            color: #000000;
+        }
+
+        /* Sección "Servicios" */
+        #servicios {
+            background-color: #f7faf9;
+            color: #000000;
+        }
+
+        #servicios ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+        /* Sección "Blog" */
+        #blog {
+            background-color: #f5f6f7;
+            color: #060707;
+        }
+
+        /* Estilos para enlaces en los artículos del blog */
+        #blog a {
+            color: #2933ca;
+        }
+
+        /* Sección "Contacto" */
+        #contacto {
+            background-color: #e9ecec;
+            color: #111111;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #5151E5;
+            color: #E9E9DE;
+        }
+/* Style the carousel container */
+#carouselExampleAutoplaying {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+  }
+  
+  /* Style the carousel images */
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+  }
+  
+  /* Style the carousel navigation buttons */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40px; /* Adjust the button size as needed */
+    height: 40px;
+    background-color: rgba(4, 136, 245, 0.918); /* Button background color */
+    border: none;
+    border-radius: 50%; /* Make the buttons circular */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: rgba(13, 35, 233, 0.8); /* Button background color on hover */
+  }
+  
+  /* Style the carousel navigation icons */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    color: rgb(24, 14, 177); /* Icon color */
+  }
+  
+  /* Hide the "Previous" and "Next" text on small screens */
+  @media (max-width: 768px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+      font-size: 0;
+    }
+  }
+  
